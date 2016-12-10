@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issues format="4" by="lint 25.1.1">
+
+    <issue
+        id="ResourceCycle"
+        severity="Fatal"
+        message="Style Resource definition cycle: TextAppearance.AppCompat.Light.SearchResult.Title => TextAppearance.AppCompat.SearchResult.Title => TextAppearance.AppCompat.SearchResult.Title"
+        category="Correctness"
+        priority="8"
+        summary="Cycle in resource definitions"
+        explanation="There should be no cycles in resource definitions as this can lead to runtime exceptions.">
+        <location
+            file="C:\Users\USER\AndroidStudioProjects\Igor_laba_1\programm_calculator"/>
+    </issue>
+
+</issues>
